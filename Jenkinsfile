@@ -21,6 +21,7 @@ pipeline {
             steps {
                 echo 'Ejecutando pruebas'
                 sh 'sh hello.sh'
+                sh 'exit 1'
             }
         }
 
